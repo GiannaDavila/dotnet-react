@@ -10,6 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <Layout>
+        <h1>It's Me 😌</h1>
         <Routes>
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
